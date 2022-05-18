@@ -1,5 +1,5 @@
 ## What is the difference between push, pull, and fetch?
 Consider the specific direction and action each of these `git` commands applies to synchronize your local branch with a remote repository:
-* `git push` uploads changes from your local branch into the remote repository. To first match the local and remote commits before you upload, run a single `git pull` or a sequence of `git fetch` and `git merge`.
-* `git fetch` downloads changes from the remote repository without updating your local branch. Run this command to review updates from remote tracking branches and then run `git merge` if you want to combine them into your local branch.
+* `git push` uploads changes from your local branch into the remote repository. To first match local and remote commits before you upload, run a single `git pull` or a sequence of `git fetch` and `git merge`.
+* `git fetch` downloads changes from the remote repository without updating your local branch. Run this command to review updates from remote tracking branches and then run `git merge` to combine them into your local branch.
 * `git pull` downloads changes from the remote repository and merges them into your local branch. Run this command to perform `git fetch` followed by `git merge` as a single update.
